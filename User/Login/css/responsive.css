@@ -1,0 +1,273 @@
+@media only screen and (min-device-width:320px)and (max-device-width:540px) {
+    #logo {
+        width: 5rem;
+        height: 5rem;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    #brand {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    #from-login {
+        max-width: 20rem;
+        border-radius: 20% 5% 20% 5%;
+        height: 30rem;
+    }
+
+    .from-head {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .from-group {
+        border-bottom: 1px solid rgb(58, 202, 254);
+        margin-top: 5px;
+        margin-bottom: 10px;
+        height: 2em;
+        font-size: 1rem;
+    }
+
+    .from-group:hover {
+        border-bottom: 1px solid #1c1ff1;
+    }
+
+    .from-group i {
+        padding-top: 8px;
+        padding-right: 10px;
+    }
+
+    .from-submit {
+        padding: 6px 8px;
+    }
+
+    .signup {
+        margin-left: 0rem;
+        font-size: 1rem;
+    }
+
+    .other-with {
+        font-size: 1rem;
+        color: #0066FF;
+        font-weight: 500;
+    }
+
+    .other-login {
+        border: 3px double rgb(45, 62, 251);
+        padding: 10px;
+    }
+
+    .other-login img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .bubble {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (min-device-width:100px)and (max-device-width:320px) {
+    #logo {
+        width: 3rem;
+        height: 3rem;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    #brand {
+        font-size: 1rem;
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    #from-login {
+        max-width: 15rem;
+        border-radius: 20% 5% 20% 5%;
+        height: 30rem;
+    }
+
+    .from-group {
+        border-bottom: 1px solid rgb(58, 202, 254);
+        margin-top: 5px;
+        margin-bottom: 10px;
+        height: 2em;
+        font-size: 1rem;
+    }
+
+    .from-group:hover {
+        border-bottom: 1px solid #1c1ff1;
+    }
+
+    .from-group i {
+        padding-top: 8px;
+        padding-right: 10px;
+    }
+
+    .from-submit {
+        padding: 6px 8px;
+    }
+
+    .signup {
+        margin-left: 0rem;
+        font-size: 0.8rem;
+    }
+
+    .other-with {
+        font-size: 1rem;
+        color: #0066FF;
+    }
+
+    .other-login {
+        border: none;
+        padding: 0px;
+    }
+
+    .other-login img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .bubble {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width:768px)and (max-device-width:1024px) {
+    #brand {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    #from-login {
+        max-width: 40rem;
+        border-radius: 20% 5% 20% 5%;
+        height: 45rem;
+    }
+
+    .from-head {
+        font-size: 3rem;
+    }
+
+    .from-group {
+        border-bottom: 3px solid rgb(58, 202, 254);
+        margin-top: 15px;
+        margin-bottom: 10px;
+        height: 3em;
+        font-size: 1.5rem;
+    }
+
+    .from-group:hover {
+        border-bottom: 3px solid #1c1ff1;
+    }
+
+    .from-group i {
+        padding-top: 1.6rem;
+        padding-right: 10px;
+    }
+
+    .from-submit {
+        padding: 10px 10px;
+    }
+
+    .signup {
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .other-with {
+        font-size: 1.5rem;
+    }
+
+    .other-login {
+        border: 3px double rgb(45, 62, 251);
+        padding: 1.5rem;
+    }
+
+    .other-login img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .bubble {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media only screen and (min-device-width:1024px)and (max-device-width:1270px) {
+    #logo {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    #brand {
+        font-size: 1.5rem;
+        margin-left: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    #from-login {
+        max-width: 25rem;
+        height: 30rem;
+    }
+
+    .from-head {
+        font-size: 1.5rem;
+    }
+
+    .from-group {
+        border-bottom: 2px solid rgb(58, 202, 254);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 2em;
+        font-size: 1rem;
+    }
+
+    .from-group:hover {
+        border-bottom: 2px solid #1c1ff1;
+    }
+
+    .from-group i {
+        padding-top: 0.5rem;
+        padding-right: 10px;
+    }
+
+    .from-submit {
+        padding: 5px 5px;
+    }
+
+    .signup {
+        margin-left: 1rem;
+        font-size: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .other-with {
+        margin-top: 0rem;
+        font-size: 1rem;
+    }
+
+    .other-login {
+        border: 3px double rgb(45, 62, 251);
+        padding: 1.5rem;
+    }
+
+    .other-login img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .bubble {
+        width: 45px;
+        height: 45px;
+    }
+}

@@ -1,0 +1,146 @@
+body{
+    background-image: url('./img/bg3.jpg');
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat; 
+    margin: 0; 
+    padding: 0;
+    overflow: hidden;
+}
+#Login{
+    width:12rem;
+    height:5rem;
+    position: fixed;
+    right:0%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 18px;
+    margin: 2rem;
+    border-radius: 10px;
+    background:linear-gradient(90deg,#1E90FF,#00BFFF);
+    font-weight: bold;
+    color: white;
+    animation: floating 3s ease-in-out infinite;
+    transition: 1.5s ease;
+    z-index: 1;
+}
+#Login:hover{
+    animation: floating 3s ease-in-out infinite;
+    border: 4px solid white;
+    filter: drop-shadow(4px 4px 4px black);
+    width:13rem;
+    height:6rem;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+#main{
+    width:80%;
+    height:18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    overflow: hidden;
+    animation: in 2s linear;
+}
+@keyframes in{
+    0%{
+       transform: translate(-50% , 30rem);
+       opacity: 0;
+       width: 0;
+       height:0;
+       border:4px solid white ;
+    }
+    50%{
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        width: 0;
+        height:0;
+        border:4px solid white ;
+    }
+    100%{
+        width:80%;
+        height:18rem;
+        border:4px double white ;
+        border-radius: 10%;
+    }
+}
+#logo{
+    width:15rem;
+    height:15rem;
+    border-radius: 100%;
+    animation: logoin  alternate 2s;
+    filter: drop-shadow(4px 4px 4px black);
+}
+@keyframes logoin{
+    0%{
+        opacity: 0;
+        filter: drop-shadow(4px 4px 4px black);
+        transform: rotate(360deg);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+div > h6{
+    margin-left: 2rem;
+    font-size: 4rem;
+    color:white;
+    text-shadow: 4px 4px 4px black;
+    animation: text  alternate 3.5s;
+    font-weight: bold;
+}
+@keyframes text{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@media only screen and (max-width: 540px){
+    #main{
+        display: block;
+        width:100%;
+        height:30rem;
+        text-align: center; 
+    }
+    #logo{
+        width:10rem;
+        height:10rem;
+        border-radius: 100%;
+        animation: logoin  alternate 2s;
+        filter: drop-shadow(4px 4px 4px black);
+    }
+    div > h6{
+        margin-left: 0;
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+    #Login{
+        width:8rem;
+        height:4rem;
+        font-size: 1rem;
+    }
+}

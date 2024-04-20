@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+  <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/signup.css">
+  <link rel="stylesheet" href="css/rpsignup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../JS/main.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="../img/logo.png" alt="Logo" id="logo">
+    <span id="brand">Diễn Đàn Ngư Nghiệp</span>
+  </header>
+
+  <main>
+
+    <form action="./conectsever/conectdb/reg.php" id="form-signup" method="post">
+      <h1 class="from-head pt-5">
+        <i class="fa-solid fa-fish"></i>
+        Đăng Ký
+      </h1>
+      <div class="from-group">
+        <i class="far fa-user"></i>
+        <input type="text" name="username" id="username" class="from-input" autofocus placeholder="Tên đăng nhập">
+      </div>
+      <div class="from-group">
+        <i class="fas fa-key"></i>
+        <input type="password" name="password" id="password" class="from-input" placeholder="Mật khẩu">
+      </div>
+      <div class="from-group">
+        <i class="fas fa-key"></i>
+        <input name="confirmpassword" type="password" id="confirmpassword" class="from-input" placeholder="Nhập lại mật khẩu">
+      </div>
+      <input type="submit" value="Đăng Ký" class="from-submit" name="button-reg">
+      <div class="signup pt-2">
+        Có tài khoản? <a href="../Login/login.html">đăng nhập ngay</a>
+      </div>
+
+      <div class="other">
+        <div class="other-with">Hoặc với</div>
+        <a class="other-login" href="">
+
+          <img src="../img/facebook.png" alt="facebook">
+        </a>
+
+        <a class="other-login" href="">
+
+          <img src="../img/google.png" alt="google">
+        </a>
+      </div>
+
+    </form>
+
+  </main>
+  <footer>
+    <div class="bubble-container" id="bubbleContainer"></div>
+  </footer>
+
+  <script>
+    /*
+    const inputUsername = document.querySelector("#username");
+     const inputPassord = document.querySelector("#password");
+     const inputConfirmPassword = document.querySelector("#confirmpassword");
+     const buttonsubmitsignup = document.querySelector(".from-submit");
+     
+     buttonsubmitsignup.addEventListener("click" , (e) =>{
+       e.preventDefault();
+       if(
+          inputUsername.value == "" ||
+          inputPassord.value =="" ||
+          inputConfirmPassword.value ==""
+       ){
+         alert("Vui lòng nhập đầy đủ thông tin");
+       }
+       else if(inputConfirmPassword.value !== inputPassord.value){
+         alert("Mật khẩu không khớp");
+       }
+       else{
+         const user ={
+           username: inputUsername.value,
+           password: inputPassord.value,
+         };
+       let json = JSON.stringify(user);
+       localStorage.setItem(inputUsername.value,json);
+       alert ("Đăng ký thành công");
+       window.location.href = "../../../Login/login.html";
+       }
+   
+   });
+   */
+  </script>
+  <script src="./js/signup.js"></script>
+</body>
+
+</html>
